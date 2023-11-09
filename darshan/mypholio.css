@@ -1,0 +1,218 @@
+body{
+    background-color: rgb(223, 215, 207);
+}
+
+.navbar{
+    height: 100px;
+    background-color: rgb(223, 215, 207);
+    display: flex;
+    justify-content: space-between;
+    transition-property: all;
+    transition-duration: 3s;
+    transition-timing-function: ease-in;
+
+
+    
+}
+.navbar a{
+    font-size: 23px;
+    text-decoration: none;  color:black;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function:ease-in;
+    border-color: none;
+    border-width: none;
+    border-width: none;
+    font-family: 'Times New Roman', Times, serif;
+    
+  
+}.navbar #one{
+    width: 320px;
+    font-size: 13px;
+    margin: 26px;
+    font-style:italic;
+   font-family: 'Times New Roman', Times, serif;
+    
+
+}.navbar #two{
+    font-size: 53px;
+    width: 220px;
+    margin: 10px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+     
+}.navbar #three{
+    font-size: 53px;
+    width: 220px;
+    margin: 10px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif
+}.navbar #four{
+    font-size: 53px;
+    width: 220px;
+    margin: 10px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif
+}.navbar:hover{
+    background-color: rgb(247, 189, 255);
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    border-width: 2px;
+    box-shadow: 4px 4px 4px 4px rgb(133, 129, 125);
+}.navbar a:hover{
+    
+    color: blue;
+    font-size: 24px;
+    box-shadow: 2px 2px 4px 4px rgb(139, 135, 135);
+    
+    
+    text-decoration:none;
+    margin-left: 30px;
+}.navbar#one{
+    margin-left: 23px;
+}.navbar#four{
+    margin-left: 23px;
+}.main{
+    width: 100%;
+    margin: auto;
+    margin-top: 40px;
+}.main div{
+    display: inline-block;
+    background-color: rgb(223, 215, 207);
+   
+}.main1{
+    text-align: end;
+    width: 40%;
+
+}.main1 img{
+    border-radius:30%;
+    padding-right: 23px;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-in;
+     
+   
+}.main1 img:hover{
+   margin-right: 29px;
+   transform: rotate(20deg);
+}.main2 h1{
+    font-family: 'Times New Roman', Times, serif;
+    color: red;
+    transition-property: all;
+    transition-duration: 2s;
+    transform-style: preserve-3d;
+    transition-timing-function: ease-in;
+}
+.main2 h1:hover{
+    margin-left: 20px;
+}.main2{
+    width: 50%;
+    height: 300px;
+}.main2 button{
+    border: none;
+    color: mediumvioletred;
+    transition-property: all;
+    transition-duration: 3s;
+    transition-timing-function: ease-in;
+    
+    height: 25px;
+}
+.about{
+    height: 80px;
+    display: flex;
+    
+    
+    justify-content:flex-start;
+}.navbar #five  img{
+    border-radius: 50%;
+    margin-top: 3px;
+    margin-left: 10px;
+    transition-property:all;
+    transition-duration: 2s;
+    transition-timing-function: ease-in;
+    
+
+}
+.main2 button:hover{
+   background-color: rgb(224, 134, 205);
+   color: black;
+   box-shadow: 2px 2px 4px 4px rgb(88, 86, 86);
+  
+}
+.navbar #five img:hover{
+    transform: rotate(360deg);
+
+}.about{
+    margin: 45px;
+    background-color: rgb(223, 215, 207);
+    transition-property: all;
+    transition-duration: 3s;
+    transition-timing-function: ease-in;
+
+}.about:hover{
+    margin-left: 20px;
+    font-size: 20px;
+   color: rgb(195, 0, 255);
+}.struct{
+    width: 80%;
+    background-color: blue;
+}.edu{
+    color: rgb(20, 40, 220);
+    margin-left: 23px;
+}.det{
+    font-size: 34px;
+}#er{
+  color: black;
+}#sk{
+  margin-left: 33px;
+  margin-bottom: 10px;
+  
+}.scard{
+    display: inline-block;
+  
+    width:8% ;
+    text-align: center;
+    padding:9px;
+    background-color: rgb(212, 205, 195);
+    border-radius: 3px;
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow: 2px 2px 3px 3px;
+    margin-right: 3%;
+    margin-bottom: 23px;
+    margin-left: 30px;
+
+
+
+}.scard img{
+    padding: 2px;
+    border: 5px;
+    
+}.scard:hover{
+    scale: 85%;
+    background-color: rgb(57, 58, 58);
+}.proj{
+    display: inline-block;
+    width: 40%;
+    padding: 10px;
+    background-color: rgb(88, 86, 83);
+    border-radius: 5%;
+    margin-left: 20px;
+}.proj img{
+    border-color:black ;
+    border-style: solid;
+    border-radius: 10%;
+}.hi{
+    margin-left: 23px;
+    font-family: 'Times New Roman', Times, serif;
+    color: darkred;
+    
+}.proj:hover{
+    scale: 85%;
+    box-shadow: 2px 2px 3px  3px ;
+}.ab{
+    text-decoration: none;
+    color: black;
+    font-size: 23px;
+    padding:23px;
+    margin-bottom: 23px;
+}
